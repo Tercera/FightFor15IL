@@ -1,0 +1,80 @@
+== Forest Changelog ==
+
+= 2.0: July 13, 2016 =
+* Added new default fonts
+* Added new Portfolio Section Background Color option
+* Added new Footer Text Color option
+* Several sitewide style tweaks
+* Fixed issue with Blog post cover background color and image
+* Removed default icon fields in Service widget in favor of custom icon fields
+* Updated Flexslider library
+* Updated Flexslider library
+
+= 1.3: May 03, 2016 =
+* Compatible with WordPress 4.5+
+
+= 1.2: April 27, 2015 =
+* XSS vulnerability check - https://make.wordpress.org/plugins/2015/04/20/fixing-add_query_arg-and-remove_query_arg-usage/
+* Updated TGM Plugin Activation library
+
+= 1.1.9: Jan 2, 2015 =
+* Updated documentation/support link(s)
+
+= 1.1.8: July 19, 2014 =
+* Fix localisation issue
+* Contact Form tweaks
+
+= 1.1.7: January 06, 2014 =
+* style.css - updated version number
+* functions.php - Added support for 'Stag Custom Sidebars' plugin
+* NEW: template-widgetized.php
+
+= 1.1.6: January 01, 2014 =
+* style.css - updated version number
+* assets/js/jquery.custom.js - Fix mobile navigation icon
+* functions.php
+
+= 1.1.5: November 19, 2013 =
+* style.css - updated version number
+* assets/js/jquery.custom.js - Fix mobile navigation icon
+
+= 1.1.4: November 15, 2013 =
+* style.css - updated version number
+* assets/js/query.custom.js - Fixed an issue with JS when skills are all matched
+
+= 1.1.3: November 15, 2013 =
+* style.css - updated version number
+* assets/js/query.custom.js - Fix portfolio unnecessary visible filter tags
+* includes/widgets/widget-portfolio.php - Fix portfolio unnecessary visible filter tags
+
+= 1.1.2: November 05, 2013 =
+* style.css - updated version number
+* functions.php
+* helper-portfolio-sidebar.php
+* includes/meta/meta-portfolio.php
+
+= 1.1.1: October 22, 2013 =
+* style.css - updated version number
+* includes/options/styling-options.php - Fixed an issue with Google Web Font
+
+= 1.1: September 24, 2013 =
+* style.css - updated version number
+* NEW: StagFramework v2, Compatible and requires plugin StagTools to work
+* NOTE: Full replace of files and folder are required
+
+= 1.0.3: September 11, 2013 =
+* style.css - updated version number
+* template-contact.php - replaced deprecated ( in PHP 5.4 ) eregi function with preg_match
+* helper-portfolio-sidebar.php - sanitize fields
+
+= 1.0.2: August 5, 2013 =
+* style.css - updated version number, fixed glitch with mobile navigation
+* Checked WP3.6 Compatibility
+* assets/js/jquery.custom.js - refactored code
+
+= 1.0.1: July 14, 2013 =
+* style.css - updated version number, updated styling for slider
+* assets/js/jquery.custom.js - fixed an issue with slider captions alignment
+
+= 1.0.0: July 5, 2013 =
+* Initial Release

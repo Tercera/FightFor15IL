@@ -1,0 +1,128 @@
+/*
+Theme Name:     Forest Child Theme
+Description:    Make your modifications to Forest in this child theme.
+Template:       forest
+*/
+
+@import url('../forest/style.css');
+
+.stag-button--red {
+    background: #ed1c24;
+}
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+#stag_widget_services_section-2{
+	background-color: #f5f5f6;
+}
+
+#stag_widget_testimonials-3{
+    background-color: #dbeaf0;
+}
+
+#stag_widget_testimonials-3 h2{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+
+/* Title */ 
+.flex-caption--inner .flex-content{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	opacity: 1;
+	margin-left: 80px;
+    padding-top: 2px;
+}
+
+#slider .flex-caption--inner{
+	position: absolute;
+}
+
+#slider h2 {
+    max-width: 100%;
+	width: 100%;
+	font-size: 101px;
+}
+
+#slider .flex-content{
+	margin-left: 11%;
+    margin-top: 12%;
+	width: 100%;
+    max-width: 100%;
+}
+
+
+/* Nav buttons */
+#primary-menu{
+	border: none;
+}
+
+#primary-menu > li{
+	padding: 13px 30px;
+}
+
+#primary-menu > li a {
+	color: #4e2683;
+	border: none;
+	padding: 0;
+	padding-bottom: 4px;
+    border-bottom: solid 2px transparent !important;
+	font-size: 17px;
+}
+
+#primary-menu > li a:hover{
+	color: #4e2683;
+	opacity: 1;
+    border-bottom: solid #ffd204 2px !important;
+}
+
+.header-shrink #primary-menu > li a{
+	padding: 0;
+}
+
+/* For mobile view NAV */
+.main-navigation a {
+    color: #ffd204;
+}
+
+.main-navigation a:hover {
+    color: #007095;
+	opacity: 1;
+}
+
+
+
+a{
+	color: #008CBA; 
+	opacity: 1;
+}
+
+
+a:hover{
+	color: #007095;
+	opacity: 1;
+}
+
+form.customize-unpreviewable, form.customize-unpreviewable input, form.customize-unpreviewable select, form.customize-unpreviewable button, a.customize-unpreviewable, area.customize-unpreviewable{
+	cursor: auto !important;
+	opacity: 1;
+}	
+
+/* Sign Up Section */	
+
+#stag_widget_static_content-3{
+	text-align: center;
+}
+
+/* current indicator for nav bar */
+
+#primary-menu > li.current-menu-item a{
+    opacity: 1;
+    border-bottom: solid #ffd204 2px !important;
+}
+	
