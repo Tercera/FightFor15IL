@@ -125,4 +125,74 @@ form.customize-unpreviewable, form.customize-unpreviewable input, form.customize
     opacity: 1;
     border-bottom: solid #ffd204 2px !important;
 }
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.portfolios > li{
+	max-height: 440px;
+	height: 440px;
+}
+
+.required{
+   color: #E80000;
+}
+
+.strong{
+   font-weight: bold;
+}
+
+.home-link img{
+   max-width: 73px;
+}
+
+
+
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+@media (max-width: 992px)
+style.css:1509
+.home-link {
+    display: block !important;
+    float: none !important;
+}
+
+#mobile-nav{
+	color: #4e2683;
+}
+
+@media (max-width: 992px)
+style.css:1521
+.main-navigation {
+    float: none;
+    position: relative;
+}
+
+.site-header .home-link {
+    color: inherit;
+    position: relative;
+}
+
+
+style.css:536
+.home-link {
+    display: block;
+    max-width: 300px;
+}
+
+.home-link img {
+    position: relative;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
+
 	
